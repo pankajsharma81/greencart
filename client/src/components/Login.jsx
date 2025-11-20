@@ -14,6 +14,9 @@ const Login = () => {
       email: "test@pankajsharma.dev",
       name: "PankajSharma",
     });
+
+    // Close the login form/modal
+    setShowUserLogin(false);
   };
 
   return (
