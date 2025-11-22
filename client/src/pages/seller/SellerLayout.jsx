@@ -45,6 +45,7 @@ const SellerLayout = () => {
             <NavLink
               to={item.path}
               key={item.name}
+              end={item.path === "/seller"}
               className={({ isActive }) => `flex items-center py-3 px-4 gap-3 
                             ${
                               isActive
